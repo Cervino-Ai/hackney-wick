@@ -1,4 +1,4 @@
-const FALLBACK_SITE_URL = "http://localhost:3000";
+const FALLBACK_SITE_URL = "https://hackneywickdirectory.co.uk";
 
 export function getSiteUrl() {
   const raw = process.env.SITE_URL?.trim() || FALLBACK_SITE_URL;
