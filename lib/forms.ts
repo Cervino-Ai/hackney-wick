@@ -1,0 +1,1 @@
+export const FORMSPREE_ENDPOINT = "[PASTE YOUR URL]";

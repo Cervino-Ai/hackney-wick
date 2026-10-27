@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "hwk-coffee",
+    "sponsored": false,
+    "blurb": "Coffee on White Post Lane."
+  },
+  {
+    "slug": "the-lock-inn",
+    "sponsored": false,
+    "blurb": "A pub on East Bay Lane."
+  },
+  {
+    "slug": "crate-brewery-and-pizza",
+    "sponsored": false,
+    "blurb": "Brewery and pizza in Queen’s Yard."
+  }
+]
