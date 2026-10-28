@@ -43,7 +43,7 @@ const CATEGORY_TAGS = {
     bar: ["*"],
     drink: ["beer", "wine", "cocktail", "cocktails", "cider", "spirits", "liquor", "alcohol", "ale", "stout", "lager", "whisky", "whiskey", "gin", "rum"],
   },
-  "Cafés": {
+  "Cafés & Coffee Shops": {
     amenity: ["cafe", "internet_cafe"],
     shop: ["coffee", "tea"],
     cuisine: ["coffee_shop", "coffee", "tea", "bubble_tea", "cake", "dessert", "juice", "smoothie"],

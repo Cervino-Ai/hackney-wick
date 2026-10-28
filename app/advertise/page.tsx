@@ -15,7 +15,7 @@ export default function AdvertisePage() {
       <div className="mt-4 max-w-2xl space-y-4 text-lg leading-8">
         <p>
           A featured placement puts a business on the homepage, and can also appear on a category page such as
-          Cafés or Bars & Pubs.
+          Cafés & Coffee Shops or Bars & Pubs.
         </p>
         <p>
           An editor’s pick is chosen by the directory. A paid placement is labelled Sponsored, so visitors can tell

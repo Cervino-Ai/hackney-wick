@@ -15,8 +15,8 @@ const categoryIntros: Record<string, string> = {
     "Hackney Wick after dark. Venues, clubs and the nights that start in a warehouse and end much later.",
   "bars-and-pubs":
     "Pubs and bars for a quick one or a long sit, scattered through Hackney Wick.",
-  cafes:
-    "Cafés for the oat flat white, the slow morning, and the laptop you promised to leave at home. Hackney Wick runs on them.",
+  "cafes-and-coffee-shops":
+    "Cafés and coffee shops for the oat flat white, the slow morning, and the laptop you promised to leave at home. Hackney Wick runs on them.",
   "food-and-drink":
     "Restaurants, kitchens and whatever is cooking in the yards. Hungry in Hackney Wick? Start here.",
   "arts-and-galleries":
@@ -49,9 +49,12 @@ export async function generateMetadata({
   const { category: categorySlug } = await params;
   const category = getCategory(categorySlug);
   if (!category) return { title: "Not found" };
+  const isCafes = category.slug === "cafes-and-coffee-shops";
   return {
-    title: `${category.name} in Hackney Wick`,
-    description: `${category.count} ${category.name} in Hackney Wick, with addresses and opening hours.`,
+    title: isCafes ? "Best Cafés & Coffee Shops in Hackney Wick" : `${category.name} in Hackney Wick`,
+    description: isCafes
+      ? `${category.count} cafés and coffee shops in Hackney Wick, with addresses and opening hours.`
+      : `${category.count} ${category.name} in Hackney Wick, with addresses and opening hours.`,
     alternates: { canonical: `/${category.slug}` },
   };
 }

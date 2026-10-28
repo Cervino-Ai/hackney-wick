@@ -25,7 +25,7 @@ const CATEGORY_ORDER = [
   "breweries-and-taprooms",
   "music-and-nightlife",
   "bars-and-pubs",
-  "cafes",
+  "cafes-and-coffee-shops",
   "food-and-drink",
   "arts-and-galleries",
   "studios-and-creative-spaces",
