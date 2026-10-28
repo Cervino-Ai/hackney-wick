@@ -1,5 +1,5 @@
 ---
-title: "Where to Eat and Drink Before a West Ham Game at the London Stadium (2026 Guide)"
+title: "Heading to a west ham game? Here's where to eat and drink"
 description: "Pre-match beer, food and bars near the London Stadium, in Hackney Wick and Fish Island."
 date: 2026-10-28
 places:

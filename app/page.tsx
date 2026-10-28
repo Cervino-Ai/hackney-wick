@@ -77,19 +77,24 @@ export default function HomePage() {
           </ul>
         </section>
       ) : null}
-      <ul className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {categories.map((category) => (
-          <li key={category.slug}>
-            <Link
-              href={`/${category.slug}`}
-              className="block h-full rounded-lg border border-line bg-card p-4 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
-            >
-              <span className="text-3xl font-semibold text-accent">{category.count}</span>
-              <span className="mt-2 block text-lg font-medium">{category.name}</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <section className="mt-10" aria-labelledby="categories-heading">
+        <h2 id="categories-heading" className="text-2xl font-semibold tracking-tight">
+          Categories
+        </h2>
+        <ul className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {categories.map((category) => (
+            <li key={category.slug}>
+              <Link
+                href={`/${category.slug}`}
+                className="block h-full rounded-lg border border-line bg-card p-4 transition-colors hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+              >
+                <span className="text-3xl font-semibold text-accent">{category.count}</span>
+                <span className="mt-2 block text-lg font-medium">{category.name}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
       <Link
         href="/advertise"
         className="mt-8 block rounded-md border border-line bg-card px-4 py-3 text-sm hover:border-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
