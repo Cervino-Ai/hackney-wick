@@ -44,6 +44,8 @@ const guideBodyClass = [
   "[&_ul]:mt-4 [&_ul]:list-disc [&_ul]:space-y-2 [&_ul]:pl-5",
   "[&_ol]:mt-4 [&_ol]:list-decimal [&_ol]:space-y-2 [&_ol]:pl-5",
   "[&_a]:text-accent [&_a]:underline [&_a]:decoration-accent/40 [&_a]:underline-offset-4",
+  "[&_img]:mt-6 [&_img]:w-full [&_img]:rounded-lg",
+  "[&_p_em]:text-base [&_p_em]:text-muted",
   "[&_code]:rounded [&_code]:bg-line [&_code]:px-1 [&_code]:py-0.5 [&_code]:text-base",
   "[&_pre]:mt-4 [&_pre]:overflow-x-auto [&_pre]:rounded-md [&_pre]:bg-line [&_pre]:p-4 [&_pre]:text-sm",
   "[&_pre_code]:bg-transparent [&_pre_code]:p-0",
