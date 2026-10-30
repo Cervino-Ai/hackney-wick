@@ -49,6 +49,9 @@ export default function PrivacyPage() {
         This site doesn&apos;t use tracking or advertising cookies. If that changes, we&apos;ll ask for your consent
         first and update this page.
       </p>
+      <p className="mt-3 max-w-2xl leading-7">
+        We use Vercel Web Analytics to count visits. It doesn&apos;t use cookies or identify individual visitors.
+      </p>
 
       <h2 className="mt-10 text-2xl font-semibold tracking-tight">Your rights</h2>
       <p className="mt-3 max-w-2xl leading-7">

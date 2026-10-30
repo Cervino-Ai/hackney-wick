@@ -10,6 +10,7 @@
     "fetch": "node scripts/fetch-places.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",
     "marked": "^18.1.2",
     "next": "16.4.3",
